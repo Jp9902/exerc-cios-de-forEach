@@ -1,10 +1,7 @@
-let frase = "Raphael Veiga é Brabo";
-let palavras = frase.split(" ");
-let contador = 0;
+const nomes = ["ana", "carlos", "maria"];
+let nomesM = []
 
-
-palavras.forEach(() => {
-  contador++;
-});
-
-console.log(`Número de palavras: ${contador}`);
+nomes.forEach(function (Maiusculo){
+console.log(Maiusculo.toUpperCase())
+})
+ 
