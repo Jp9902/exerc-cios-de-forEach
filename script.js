@@ -1,11 +1,10 @@
 
-const numeros = [1, 2, 3, 4, 5, 6, 7, 8];
-let numerosPares = []
+const nomes = ["João", "Maria", "Carlos", "Ana"];
+nomefinal = [];
 
-numeros.forEach(function (madeN) {
-    if(madeN % 2 === 0){
-
-    console.log(madeN)
-    }
+nomes.forEach(function (prefixo) {
+  
+    nomefinal.unshift('Sr(a)' + prefixo )
 })
-console.log(numerosPares)
+
+console.log(nomefinal)
