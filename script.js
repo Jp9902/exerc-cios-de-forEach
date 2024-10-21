@@ -1,10 +1,11 @@
 
-const nomes = ["João", "Maria", "Carlos", "Ana"];
-nomefinal = [];
+const numeros = [4, 11, 8, 15, 23, 7, 2];
+let numerosM = []
 
-nomes.forEach(function (prefixo) {
-  
-    nomefinal.unshift('Sr(a)' + prefixo )
+numeros.forEach(function (maisdez) {
+  if (maisdez > 10)
+    numerosM.push(maisdez)
+
 })
 
-console.log(nomefinal)
+console.log(numerosM)
